@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import KoreBot from './components/KoreBot/KoreBot';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           Learn React
         </a>
       </header>
+      <KoreBot />
     </div>
   );
 }
